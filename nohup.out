@@ -1,0 +1,55 @@
+
+> egg-ssr@1.0.0 start /Users/sunzehao3/Documents/demo/egg-ssr
+> egg-scripts start --daemon --title=egg-server-egg-ssr
+
+[egg-scripts] Starting egg application at /Users/sunzehao3/Documents/demo/egg-ssr
+[egg-scripts] Run node --require /Users/sunzehao3/Documents/demo/egg-ssr/node_modules/source-map-support/register.js /Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg-scripts/lib/start-cluster {"title":"egg-server-egg-ssr","baseDir":"/Users/sunzehao3/Documents/demo/egg-ssr","framework":"/Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg"} --title=egg-server-egg-ssr
+[egg-scripts] Save log file to /Users/sunzehao3/logs
+[egg-scripts] Wait Start: 1...
+[egg-scripts] Wait Start: 2...
+[egg-scripts] tail -n 100 /Users/sunzehao3/logs/master-stderr.log
+[egg-scripts] Got error when startup: 
+[egg-scripts] 2020-06-10 18:11:06,575 ERROR 41878 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,580 ERROR 41880 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,581 ERROR 41879 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,584 ERROR 41881 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,592 ERROR 41887 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,596 ERROR 41884 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,597 ERROR 41876 nodejs.AppWorkerDiedError: [master] app_worker#1:41878 died (code: 0, signal: null, suicide: false, state: dead), current workers: ["2","3","4","5","6","7","8","9","10","11","12"]
+[egg-scripts]     at Master.onAppExit (/Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg-cluster/lib/master.js:510:21)
+[egg-scripts]     at Master.emit (events.js:198:13)
+[egg-scripts]     at Messenger.sendToMaster (/Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg-cluster/lib/utils/messenger.js:137:17)
+[egg-scripts]     at Messenger.send (/Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg-cluster/lib/utils/messenger.js:102:12)
+[egg-scripts]     at EventEmitter.cluster.on (/Users/sunzehao3/Documents/demo/egg-ssr/node_modules/egg-cluster/lib/master.js:353:22)
+[egg-scripts]     at EventEmitter.emit (events.js:203:15)
+[egg-scripts]     at ChildProcess.worker.process.once (internal/cluster/master.js:190:13)
+[egg-scripts]     at Object.onceWrapper (events.js:286:20)
+[egg-scripts]     at ChildProcess.emit (events.js:198:13)
+[egg-scripts]     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+[egg-scripts] name: "AppWorkerDiedError"
+[egg-scripts] pid: 41876
+[egg-scripts] hostname: JRMZN4MHMD6M
+[egg-scripts] 
+[egg-scripts] 2020-06-10 18:11:06,597 ERROR 41882 [app_worker] server got error: bind EADDRINUSE null:7001, code: EADDRINUSE
+[egg-scripts] 2020-06-10 18:11:06,598 ERROR 41876 [master] app_worker#1:41878 start fail, exiting with code:1
+[egg-scripts] 2020-06-10 18:11:06,598 ERROR 41876 [master] exit with code:1
+[egg-scripts] 2020-06-10 18:11:06,606 ERROR 41877 [agent_worker] receive disconnect event on child_process fork mode, exiting with code:110
+[egg-scripts] 2020-06-10 18:11:06,606 ERROR 41883 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+[egg-scripts] 2020-06-10 18:11:06,607 ERROR 41885 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+[egg-scripts] 2020-06-10 18:11:06,608 ERROR 41888 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+[egg-scripts] 2020-06-10 18:11:06,609 ERROR 41877 [agent_worker] exit with code:110
+[egg-scripts] 2020-06-10 18:11:06,612 ERROR 41886 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+[egg-scripts] 2020-06-10 18:11:06,615 ERROR 41889 [app_worker] receive disconnect event in cluster fork mode, exitedAfterDisconnect:false
+[egg-scripts] 
+[egg-scripts] Start got error, see /Users/sunzehao3/logs/master-stderr.log
+[egg-scripts] Or use `--ignore-stderr` to ignore stderr at startup.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! egg-ssr@1.0.0 start: `egg-scripts start --daemon --title=egg-server-egg-ssr`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the egg-ssr@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/sunzehao3/.npm/_logs/2020-06-10T10_11_07_906Z-debug.log

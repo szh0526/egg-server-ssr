@@ -1,0 +1,1555 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/tslib/tslib.d.ts": {
+        "version": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "signature": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/base.d.ts": {
+        "version": "74619297b9e61e177519a153c0e00c661170c7b34bf3dbb0ceb64db9fe049726",
+        "signature": "74619297b9e61e177519a153c0e00c661170c7b34bf3dbb0ceb64db9fe049726",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "3b3ebb8c5bc86e0dce796a070c386d30b21241ff18efa252b3754066637015ad",
+        "signature": "3b3ebb8c5bc86e0dce796a070c386d30b21241ff18efa252b3754066637015ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/accepts/index.d.ts": {
+        "version": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219",
+        "signature": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/keygrip/index.d.ts": {
+        "version": "ce013414484233b24f42c0fcfca48a60bb66ab4e13c82953662305e8f1ee4925",
+        "signature": "ce013414484233b24f42c0fcfca48a60bb66ab4e13c82953662305e8f1ee4925",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/events/index.d.ts": {
+        "version": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "signature": "400db42c3a46984118bff14260d60cec580057dc1ab4c2d7310beb643e4f5935",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/qs/index.d.ts": {
+        "version": "b9cd23278040e3d4ea73660829a5c0d25cc303e493f79668e605f69edaf6d7b7",
+        "signature": "b9cd23278040e3d4ea73660829a5c0d25cc303e493f79668e605f69edaf6d7b7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "814f4d16f7e7c47feaba5979673dcc60b6d5f7e87b247ea5da1dbc83a6da9387",
+        "signature": "814f4d16f7e7c47feaba5979673dcc60b6d5f7e87b247ea5da1dbc83a6da9387",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/serve-static/index.d.ts": {
+        "version": "5b56da2c458a9522dbfec8ee94287abe037f52fc9dea766d87bd9aaf100cf14f",
+        "signature": "5b56da2c458a9522dbfec8ee94287abe037f52fc9dea766d87bd9aaf100cf14f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/connect/index.d.ts": {
+        "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/body-parser/index.d.ts": {
+        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/express/index.d.ts": {
+        "version": "ead1ed9dd4874f4907a506a31e4fe9c4e079b42816f6b7ea5016a6d5ddf2fde3",
+        "signature": "ead1ed9dd4874f4907a506a31e4fe9c4e079b42816f6b7ea5016a6d5ddf2fde3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/cookies/index.d.ts": {
+        "version": "0882fadf0f47cc8d812beed6ffc85a6edc1c2b42af5fd7e0da1fa35dc1868708",
+        "signature": "0882fadf0f47cc8d812beed6ffc85a6edc1c2b42af5fd7e0da1fa35dc1868708",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/http-assert/index.d.ts": {
+        "version": "97fd9fd06a67deac133ddeac0b4a266db5eede2e40ec6ad67b31b0b862559643",
+        "signature": "97fd9fd06a67deac133ddeac0b4a266db5eede2e40ec6ad67b31b0b862559643",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/koa-compose/index.d.ts": {
+        "version": "5006668996956580886022c05108e32c742823e1b5652aff7914917233731518",
+        "signature": "5006668996956580886022c05108e32c742823e1b5652aff7914917233731518",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/content-disposition/index.d.ts": {
+        "version": "e51de415deb172e3595b5194113cb82c416822bcce55d9a8ca0d8fac57510546",
+        "signature": "e51de415deb172e3595b5194113cb82c416822bcce55d9a8ca0d8fac57510546",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/koa/index.d.ts": {
+        "version": "34ce180f9654489c2c0b26638953bd0521b8c1cf5f92335531b68d94036d0f7c",
+        "signature": "34ce180f9654489c2c0b26638953bd0521b8c1cf5f92335531b68d94036d0f7c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/koa-router/index.d.ts": {
+        "version": "f394c991a6ac820eeec0877ec9db024d73d088c89ceb504278e50ce7dfbc7987",
+        "signature": "f394c991a6ac820eeec0877ec9db024d73d088c89ceb504278e50ce7dfbc7987",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-logger/index.d.ts": {
+        "version": "e96dfe9c3df7b47184294dedff13eb57c71d404908714256adc54370e74a7b81",
+        "signature": "e96dfe9c3df7b47184294dedff13eb57c71d404908714256adc54370e74a7b81",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/urllib/lib/index.d.ts": {
+        "version": "e67501a9111a78f4c663b768010fa16ea2279eb3507e2e849942652a13f31c35",
+        "signature": "e67501a9111a78f4c663b768010fa16ea2279eb3507e2e849942652a13f31c35",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/depd/index.d.ts": {
+        "version": "0e0586a9e5b51a10fb58fc3ecfb86c4d8ab715478fd562f686a5b6c1910ec59f",
+        "signature": "0e0586a9e5b51a10fb58fc3ecfb86c4d8ab715478fd562f686a5b6c1910ec59f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/egg-core/index.d.ts": {
+        "version": "961833e7d20942dc6e04329d59daad88345be89feece78e43f9d9a40e1b41527",
+        "signature": "961833e7d20942dc6e04329d59daad88345be89feece78e43f9d9a40e1b41527",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-cookies/index.d.ts": {
+        "version": "8e3c73910be75473e8f28f989236c4a23442b1782510458ad4bad327284783ce",
+        "signature": "8e3c73910be75473e8f28f989236c4a23442b1782510458ad4bad327284783ce",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-multipart/index.d.ts": {
+        "version": "98dbbad03b567d3590a2b8a742931ab3fe5cbc51815e23460703f5fed751f736",
+        "signature": "98dbbad03b567d3590a2b8a742931ab3fe5cbc51815e23460703f5fed751f736",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-view/index.d.ts": {
+        "version": "c6dcc7aa457803311e03cef22300f34bec6c8d188242117295d7fd943f14679c",
+        "signature": "c6dcc7aa457803311e03cef22300f34bec6c8d188242117295d7fd943f14679c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg/index.d.ts": {
+        "version": "c1c342128fd744a4181c092d1085aecee5ffd76364b4500563b900fdf5c80202",
+        "signature": "c1c342128fd744a4181c092d1085aecee5ffd76364b4500563b900fdf5c80202",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/index.d.ts": {
+        "version": "68ae938bfa94139918add616a33f8d20b6c8c0a69de1cd4c04f1e2f5ade178a7",
+        "signature": "68ae938bfa94139918add616a33f8d20b6c8c0a69de1cd4c04f1e2f5ade178a7",
+        "affectsGlobalScope": false
+      },
+      "./agent.ts": {
+        "version": "9c130befc0e56b0c56e5eb9613c905e9b42749612e0780ae16fb6030395706fe",
+        "signature": "c32b601a73bfb19c89b1f56c495c2c16d1ea28a47f8e3c371109eb909a16a415",
+        "affectsGlobalScope": false
+      },
+      "./app.ts": {
+        "version": "973fdbe77dadc55812d8fad1f4e4e1eb4737bd2714308957a3b4b00792c18efa",
+        "signature": "7b26a26ab64651262761ae5d1e2d51d195bd9c7d65b0e7736468293f443fb50e",
+        "affectsGlobalScope": false
+      },
+      "./app/router/page/homerouter.ts": {
+        "version": "da0e05534c2cad3347d996aa62968824ce001819623d3230e8cb5596a3f6c5df",
+        "signature": "76dfe0744c1e0b4fb8a0a1c79702d758791e172a38f69651cb23f38612ae7311",
+        "affectsGlobalScope": false
+      },
+      "./app/router/page/newsrouter.ts": {
+        "version": "cd23c8b45cd68fccc5d2ddab03bab280cabe863c516599950e79509dbb405c6b",
+        "signature": "76dfe0744c1e0b4fb8a0a1c79702d758791e172a38f69651cb23f38612ae7311",
+        "affectsGlobalScope": false
+      },
+      "./app/router/api/indexapirouter.ts": {
+        "version": "90b33fde53a438fb774badf18997ac2b7ef70e506fab1321f464f33a0490c5f7",
+        "signature": "76dfe0744c1e0b4fb8a0a1c79702d758791e172a38f69651cb23f38612ae7311",
+        "affectsGlobalScope": false
+      },
+      "./app/router.ts": {
+        "version": "853ba96206b442d477a2c8fc01d2717897ee81b4ba952815208770a650558643",
+        "signature": "76dfe0744c1e0b4fb8a0a1c79702d758791e172a38f69651cb23f38612ae7311",
+        "affectsGlobalScope": false
+      },
+      "./app/core/basecontroller.ts": {
+        "version": "ed35760ce036b185ec2782873389c72b97dbf5e6e40b1346c4620672339bf5e9",
+        "signature": "21bfd3cddfe02c0ece86c7678619e60948cf6c7f4e0165fa68c452bf8a3feb9e",
+        "affectsGlobalScope": false
+      },
+      "./app/controller/api/newsapicontroller.ts": {
+        "version": "a828d7ed95f051bdaf7e8805bbababa1568937c49e1e6b4bb8222c095bf12990",
+        "signature": "aa1c8796f4b9df84407c7738f8403dad441947d9524861fe3cb90e85050132cd",
+        "affectsGlobalScope": false
+      },
+      "./app/controller/page/homecontroller.ts": {
+        "version": "fa220333d85c6d08220050ba7e2890ead29c8ad01990fb1cfd638de22bcf2621",
+        "signature": "d0a67e6649a55fcabdb11f852eec1e991988fedac0c2b892954fdcd07265b5d2",
+        "affectsGlobalScope": false
+      },
+      "./app/controller/page/newscontroller.ts": {
+        "version": "d013c5092e500acbe2d860440be008b92f4aedc9d3f67c4977080b628f87d9ba",
+        "signature": "21c65f8cea61b0a8c3792b7e364446178e27cb6576ab57a235550c5fbf8227ca",
+        "affectsGlobalScope": false
+      },
+      "./app/extend/application.ts": {
+        "version": "43632bcc2f2913cd87a6db53e92c6fc245f1d030fb18b95327a8af5e420cfedf",
+        "signature": "61fbfee8a32264a3d9fd922aefe272feba73d953d71020863a9544e227b76de6",
+        "affectsGlobalScope": false
+      },
+      "./app/extend/context.ts": {
+        "version": "b03483d025b3a5ddeb5799d7625d6f0e247576e4c1f6ae56821894a49111347b",
+        "signature": "6c18d2be971a14a21ff3da19f236cd3d18a057859e253bbc0e7cb8a9961cc6b1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "673bdee11352042a96fbdee991b7b0897a2bccebcd8e445e867e5a46048982ba",
+        "signature": "673bdee11352042a96fbdee991b7b0897a2bccebcd8e445e867e5a46048982ba",
+        "affectsGlobalScope": false
+      },
+      "./app/extend/helper.ts": {
+        "version": "38926734a48f199cad7f4b34aa7f83373809c60a765680f8e3f66dab7d338b1b",
+        "signature": "cd16e6097de8efd2f241263eddad44a8d519dc1382cb182d8cfc485e24d80615",
+        "affectsGlobalScope": false
+      },
+      "./app/extend/request.ts": {
+        "version": "fb9abbab6e2f3f07626a0d85450ed54fdeb1b86ed544f5d2ba144349c13ef05f",
+        "signature": "2157063bd0e396173426ec5e92841abcf0cc28db86fcd9d2ea9579ac30c7a855",
+        "affectsGlobalScope": false
+      },
+      "./app/extend/response.ts": {
+        "version": "59f2e06a2103bd9e848d9620dc9a4b317aa632be80d91e6d5265a52bfedffb11",
+        "signature": "2fb5cd0c984f1b0f9511a612a77a83cb722b4bdbfa6f9f2771ca513b52cd5739",
+        "affectsGlobalScope": false
+      },
+      "./app/middleware/gzipmiddleware.ts": {
+        "version": "c13211ee55bb58ea9b6a224da9bb52f9fe1150a14c31e5c7f99992a6fec509f2",
+        "signature": "96aa8477f7f108e02a0dbeb68e584868ad960c0677e8be828fc13f8b264d705a",
+        "affectsGlobalScope": false
+      },
+      "./app/middleware/notfoundmiddleware.ts": {
+        "version": "b641254feec575ccd8a63a36e1b65d324038d0fbacd3c258b99bfd596e85d21e",
+        "signature": "6d39b973eb08775a5b79bcaf7d987304b2da060691a8757dd70fca1f4ecefe56",
+        "affectsGlobalScope": false
+      },
+      "./app/middleware/robotmiddleware.ts": {
+        "version": "ed3eefb3d3de0b851ee440d7d69f19d17358bcdd6b5144b99c6726b0c3dff395",
+        "signature": "1be2c1fa7dd6e508c63634a1ce12628e3a35295e44776641789ea8c9f548a652",
+        "affectsGlobalScope": false
+      },
+      "./app/middleware/webpackmiddleware.ts": {
+        "version": "7efb6ff051e3ead706fcd61bc3798246e500ed5ffc0b02dd33cb978b5cd7c5ff",
+        "signature": "140209e3df6a1d0af62fdda747223151d236974c80766fab6c9bcd66a40585f9",
+        "affectsGlobalScope": false
+      },
+      "./app/public/js/sdk/sdk.ts": {
+        "version": "f1027627a3346a0fe891bae8899bb84cd01c29f4ff34da9107ea528816df6863",
+        "signature": "ac633955e18ace62eee12752b874917f1e6f27d26884503a3e739df6387b53fc",
+        "affectsGlobalScope": false
+      },
+      "./app/schedule/task.ts": {
+        "version": "f1027627a3346a0fe891bae8899bb84cd01c29f4ff34da9107ea528816df6863",
+        "signature": "ac633955e18ace62eee12752b874917f1e6f27d26884503a3e739df6387b53fc",
+        "affectsGlobalScope": false
+      },
+      "./app/service/testservice.ts": {
+        "version": "d3de602757a0e1eac50809d2aa22e755ec153b4d26219373606f08ac14440c4c",
+        "signature": "438e04c907cebde2f3da6fa9b40ed43a2fb1555107b3c03b903f85045cfd0ec3",
+        "affectsGlobalScope": false
+      },
+      "./app/service/newsservice.ts": {
+        "version": "2f57e2baef55a0887e1d1748e302573459f359e2db93c7123d6c06b7af3b6e25",
+        "signature": "3565e48d3531f1923d4183ec9b63bcec26d1b579ba8fb733c9309bea22940176",
+        "affectsGlobalScope": false
+      },
+      "./config/config.default.ts": {
+        "version": "7ef7052e4288246ed70a3d48e25da706fa47c059d8f88b0224c5ca044e4e850e",
+        "signature": "ea1e695f130db0418bb2e6c1f0bfc5bdacd5379d9638fab2b31aecfea853240a",
+        "affectsGlobalScope": false
+      },
+      "./config/config.local.ts": {
+        "version": "a846ee6d9059a5df21027b9a942d346b3cb0f66067473fd0c699643471ca6db2",
+        "signature": "fa289dfd0d7561b71294bf30e3efa894b0b18c6e8840f201bf850bae7c99aa8b",
+        "affectsGlobalScope": false
+      },
+      "./config/config.prod.ts": {
+        "version": "c732c7f0586a56237f3f8b409791f8bd9c840df19ea47426bd63e154d43f2d4a",
+        "signature": "2c3d5e226f5d73fd16ffa3b1013153c1b805108cc85a6dc5d49c03eaa84bb9ab",
+        "affectsGlobalScope": false
+      },
+      "./config/config.sit.ts": {
+        "version": "1559282d5f0fa18da9651b6a91aee14d9022ce999e4194cd73ac78983b349c1c",
+        "signature": "d40ef234bb1609532a5ea3fce6a3caad08cf664277ad972d428b41abe88ef082",
+        "affectsGlobalScope": false
+      },
+      "./config/config.uat.ts": {
+        "version": "b7b524b030aca3d3ecef99227a09b0533bced63af8387a1cc5a6e3fac174c014",
+        "signature": "73a25e6962789dadb5d2e73c11e914a85d35e3ae16e2568a7806e9956a4a7ff6",
+        "affectsGlobalScope": false
+      },
+      "./config/plugin.ts": {
+        "version": "400185e5bb8f4723418907bed98c55d4112005080f500f744089359c9d8fdcd3",
+        "signature": "baf291a427f7e3f7a76ff0411d9e33979bb6bba790adce627835142dcd313ac6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/empower/index.d.ts": {
+        "version": "595321d0086cee7f6655f9fdd0e605db1bb61ae9bf65e3db788276601ac87f68",
+        "signature": "595321d0086cee7f6655f9fdd0e605db1bb61ae9bf65e3db788276601ac87f68",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/power-assert-formatter/index.d.ts": {
+        "version": "a3dcf1d8eb8c7802bd6a3746f0a6210eb4db918c459b080b2a35287b7589ea91",
+        "signature": "a3dcf1d8eb8c7802bd6a3746f0a6210eb4db918c459b080b2a35287b7589ea91",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/power-assert/index.d.ts": {
+        "version": "eae4a48a663885c891a61bfd89260f6f85934cf157ff954897dc1b8842a2a9de",
+        "signature": "eae4a48a663885c891a61bfd89260f6f85934cf157ff954897dc1b8842a2a9de",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mm/index.d.ts": {
+        "version": "158656fff10353d61bd117cd6e2e0daeebc08fe5b1f00e10f561d826caeb6275",
+        "signature": "158656fff10353d61bd117cd6e2e0daeebc08fe5b1f00e10f561d826caeb6275",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/cookiejar/index.d.ts": {
+        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
+        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/superagent/index.d.ts": {
+        "version": "5ee2df16a34ba9df84c284500ca9bca1cab8226adb825aa929a5749413f17f02",
+        "signature": "5ee2df16a34ba9df84c284500ca9bca1cab8226adb825aa929a5749413f17f02",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/supertest/index.d.ts": {
+        "version": "570b7eeb7fbe76c13a700d4c99a71d4307e17178c2c7f3bcc3c4d5115be4be6d",
+        "signature": "570b7eeb7fbe76c13a700d4c99a71d4307e17178c2c7f3bcc3c4d5115be4be6d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-mock/index.d.ts": {
+        "version": "268bfed7a0d0acc2c3771ebdcc40ee1546631defaa3ca8b8215ce7cf8a851e29",
+        "signature": "268bfed7a0d0acc2c3771ebdcc40ee1546631defaa3ca8b8215ce7cf8a851e29",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-mock/bootstrap.d.ts": {
+        "version": "c31e34040d6fb9c87c5968f1f7025c293bbf215ecfb86a89325a9409dc9560f7",
+        "signature": "c31e34040d6fb9c87c5968f1f7025c293bbf215ecfb86a89325a9409dc9560f7",
+        "affectsGlobalScope": false
+      },
+      "./test/app/controller/home.test.ts": {
+        "version": "b966403711eaf6698e0debb0f91550df3a54e28e6b97b48b6424a77df2eb62ee",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./test/app/service/test.test.ts": {
+        "version": "30a9897c44b7b7523a688db5797f2c29584bab585f9d93c5e097cad03d793f9f",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./typings/index.d.ts": {
+        "version": "e78ee339e0127127605b148c8bc7bcd43be405805ad22344e6c5d1e5b2e45416",
+        "signature": "e78ee339e0127127605b148c8bc7bcd43be405805ad22344e6c5d1e5b2e45416",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/controller/index.d.ts": {
+        "version": "70705faed0a2731d3c37da86289bc30b9ebcae91bab5377f4a25ba3f3bf8205a",
+        "signature": "70705faed0a2731d3c37da86289bc30b9ebcae91bab5377f4a25ba3f3bf8205a",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/extend/application.d.ts": {
+        "version": "ceef59588cb47a4227ab122c02cb0828240669d4c95bf39fcbc6217ec4472a53",
+        "signature": "ceef59588cb47a4227ab122c02cb0828240669d4c95bf39fcbc6217ec4472a53",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/extend/context.d.ts": {
+        "version": "5c1f1019f46bb31951c2db18bcf0e699b62300fd9aed8306e01a438e3ef15afe",
+        "signature": "5c1f1019f46bb31951c2db18bcf0e699b62300fd9aed8306e01a438e3ef15afe",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/extend/helper.d.ts": {
+        "version": "c97b41ed714c73a1da46d1b5222add85bec1ff059581f488645dc3ad42471554",
+        "signature": "c97b41ed714c73a1da46d1b5222add85bec1ff059581f488645dc3ad42471554",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/extend/request.d.ts": {
+        "version": "f3985eaffc01ebbb3aa11bc9c189b9a860944db0ad190a6358ee142d942dbeca",
+        "signature": "f3985eaffc01ebbb3aa11bc9c189b9a860944db0ad190a6358ee142d942dbeca",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/extend/response.d.ts": {
+        "version": "03c5663b9552c9b41467dcfce8becc4a5d87e687def59a365e55a435496c6d26",
+        "signature": "03c5663b9552c9b41467dcfce8becc4a5d87e687def59a365e55a435496c6d26",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/middleware/index.d.ts": {
+        "version": "33a8f11dbb91b0d79b6f61d2b4c68e71708342fbdd2e60ead29729f8b214cf0a",
+        "signature": "33a8f11dbb91b0d79b6f61d2b4c68e71708342fbdd2e60ead29729f8b214cf0a",
+        "affectsGlobalScope": false
+      },
+      "./typings/app/service/index.d.ts": {
+        "version": "1c06d9344debb1dc5ca4cca77f7d46b2f1eebefda86c3c0ccb2d0d07d21afe81",
+        "signature": "1c06d9344debb1dc5ca4cca77f7d46b2f1eebefda86c3c0ccb2d0d07d21afe81",
+        "affectsGlobalScope": false
+      },
+      "./typings/config/index.d.ts": {
+        "version": "f0733adaadcfeb3768078d0296129774fe9941cedcd94c3de88bb391ddba87a6",
+        "signature": "f0733adaadcfeb3768078d0296129774fe9941cedcd94c3de88bb391ddba87a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/egg-validate/index.d.ts": {
+        "version": "661d203145bb932fd72e4f50cd384a6e4ecb1cfb3893ece3f8402a7c0432f089",
+        "signature": "661d203145bb932fd72e4f50cd384a6e4ecb1cfb3893ece3f8402a7c0432f089",
+        "affectsGlobalScope": true
+      },
+      "./typings/config/plugin.d.ts": {
+        "version": "ae5411eb03a901308e6e03f7f44a3180f69447a79765253cd11f5155f2bda428",
+        "signature": "ae5411eb03a901308e6e03f7f44a3180f69447a79765253cd11f5155f2bda428",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/color-name/index.d.ts": {
+        "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/dargs/index.d.ts": {
+        "version": "46603d169279cef5f52b3bd1960525ce16f7529b0b509ab6b29fba137a76192e",
+        "signature": "46603d169279cef5f52b3bd1960525ce16f7529b0b509ab6b29fba137a76192e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
+        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/glob/index.d.ts": {
+        "version": "d852d6282c8dc8156d26d6bda83ab4bde51fee05ba2fe0ecdc165ddda009d3ee",
+        "signature": "d852d6282c8dc8156d26d6bda83ab4bde51fee05ba2fe0ecdc165ddda009d3ee",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "b7b0f360867e85305ac700e4c6f084d45adfa417a8f5d964b6f609f99ee92772",
+        "signature": "b7b0f360867e85305ac700e4c6f084d45adfa417a8f5d964b6f609f99ee92772",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
+        "signature": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
+        "signature": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/json-schema/index.d.ts": {
+        "version": "92bc43ea5584457c9325a3d5b2ce5af77df6d2653be7e4c2e9a626f89293c3c1",
+        "signature": "92bc43ea5584457c9325a3d5b2ce5af77df6d2653be7e4c2e9a626f89293c3c1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/mocha/index.d.ts": {
+        "version": "d93bdd7313bdc64d926cd1429bdb9a979037240e89995fddbc6817075bbfe502",
+        "signature": "d93bdd7313bdc64d926cd1429bdb9a979037240e89995fddbc6817075bbfe502",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/yargs/index.d.ts": {
+        "version": "d5fedb85b64886bcdb1be0c71b040f6854a362422f17ee28e9d2749ef399b4c1",
+        "signature": "d5fedb85b64886bcdb1be0c71b040f6854a362422f17ee28e9d2749ef399b4c1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/yargs-parser/index.d.ts": {
+        "version": "fdfbe321c556c39a2ecf791d537b999591d0849e971dd938d88f460fea0186f6",
+        "signature": "fdfbe321c556c39a2ecf791d537b999591d0849e971dd938d88f460fea0186f6",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 4,
+      "module": 1,
+      "strict": true,
+      "noImplicitAny": false,
+      "lib": [],
+      "declaration": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "charset": "utf8",
+      "allowJs": false,
+      "pretty": true,
+      "noEmitOnError": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "strictPropertyInitialization": false,
+      "noFallthroughCasesInSwitch": true,
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "inlineSourceMap": true,
+      "typeRoots": [
+        "./typings",
+        "./node_modules/@types"
+      ],
+      "importHelpers": true,
+      "allowSyntheticDefaultImports": false,
+      "esModuleInterop": false,
+      "project": "./tsconfig.json",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./agent.ts": [
+        "./typings/app/index.d.ts"
+      ],
+      "./app.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/controller/api/newsapicontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/controller/page/homecontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/controller/page/newscontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/core/basecontroller.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/extend/helper.ts": [
+        "./node_modules/moment/ts3.1-typings/moment.d.ts"
+      ],
+      "./app/middleware/gzipmiddleware.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/notfoundmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/robotmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/webpackmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router.ts": [
+        "./app/router/api/indexapirouter.ts",
+        "./app/router/page/homerouter.ts",
+        "./app/router/page/newsrouter.ts",
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/api/indexapirouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/page/homerouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/page/newsrouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/service/newsservice.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/service/testservice.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.default.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.local.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.prod.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.sit.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.uat.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/plugin.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./node_modules/@types/accepts/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/cookies/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/keygrip/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/depd/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/glob/index.d.ts": [
+        "./node_modules/@types/minimatch/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "./node_modules/@types/istanbul-reports/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/istanbul-lib-report/index.d.ts"
+      ],
+      "./node_modules/@types/koa-compose/index.d.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./node_modules/@types/koa-router/index.d.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./node_modules/@types/koa/index.d.ts": [
+        "./node_modules/@types/accepts/index.d.ts",
+        "./node_modules/@types/content-disposition/index.d.ts",
+        "./node_modules/@types/cookies/index.d.ts",
+        "./node_modules/@types/http-assert/index.d.ts",
+        "./node_modules/@types/keygrip/index.d.ts",
+        "./node_modules/@types/koa-compose/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/power-assert/index.d.ts": [
+        "./node_modules/@types/empower/index.d.ts",
+        "./node_modules/@types/power-assert-formatter/index.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/superagent/index.d.ts": [
+        "./node_modules/@types/cookiejar/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/supertest/index.d.ts": [
+        "./node_modules/@types/superagent/index.d.ts"
+      ],
+      "./node_modules/egg-core/index.d.ts": [
+        "./node_modules/@types/depd/index.d.ts",
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/egg-logger/index.d.ts"
+      ],
+      "./node_modules/egg-mock/bootstrap.d.ts": [
+        "./node_modules/@types/power-assert/index.d.ts",
+        "./node_modules/egg-mock/index.d.ts"
+      ],
+      "./node_modules/egg-mock/index.d.ts": [
+        "./node_modules/@types/supertest/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/mm/index.d.ts"
+      ],
+      "./node_modules/egg-multipart/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/egg-view/index.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/egg/index.d.ts": [
+        "./node_modules/@types/accepts/index.d.ts",
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/egg-cookies/index.d.ts",
+        "./node_modules/egg-core/index.d.ts",
+        "./node_modules/egg-logger/index.d.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/urllib/lib/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/urllib/lib/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./test/app/controller/home.test.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-mock/bootstrap.d.ts"
+      ],
+      "./test/app/service/test.test.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-mock/bootstrap.d.ts",
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./typings/app/controller/index.d.ts": [
+        "./app/controller/api/newsapicontroller.ts",
+        "./app/controller/page/homecontroller.ts",
+        "./app/controller/page/newscontroller.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/application.d.ts": [
+        "./app/extend/application.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/context.d.ts": [
+        "./app/extend/context.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/helper.d.ts": [
+        "./app/extend/helper.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/request.d.ts": [
+        "./app/extend/request.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/response.d.ts": [
+        "./app/extend/response.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/index.d.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./typings/app/middleware/index.d.ts": [
+        "./app/middleware/gzipmiddleware.ts",
+        "./app/middleware/notfoundmiddleware.ts",
+        "./app/middleware/robotmiddleware.ts",
+        "./app/middleware/webpackmiddleware.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/service/index.d.ts": [
+        "./app/service/newsservice.ts",
+        "./app/service/testservice.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/config/index.d.ts": [
+        "./config/config.default.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/config/plugin.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/index.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./agent.ts": [
+        "./typings/app/index.d.ts"
+      ],
+      "./app.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/controller/api/newsapicontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/controller/page/homecontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/controller/page/newscontroller.ts": [
+        "./app/core/basecontroller.ts"
+      ],
+      "./app/core/basecontroller.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/gzipmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/notfoundmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/robotmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/middleware/webpackmiddleware.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/api/indexapirouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/page/homerouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/router/page/newsrouter.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/service/newsservice.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./app/service/testservice.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.default.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-logger/index.d.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.local.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.prod.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.sit.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/config.uat.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./config/plugin.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./node_modules/@types/accepts/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/body-parser/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/connect/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/cookies/index.d.ts": [
+        "./node_modules/@types/connect/index.d.ts",
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/keygrip/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/depd/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/express-serve-static-core/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/range-parser/index.d.ts"
+      ],
+      "./node_modules/@types/express/index.d.ts": [
+        "./node_modules/@types/body-parser/index.d.ts",
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/qs/index.d.ts",
+        "./node_modules/@types/serve-static/index.d.ts"
+      ],
+      "./node_modules/@types/glob/index.d.ts": [
+        "./node_modules/@types/minimatch/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "./node_modules/@types/istanbul-reports/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/istanbul-lib-report/index.d.ts"
+      ],
+      "./node_modules/@types/koa-compose/index.d.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./node_modules/@types/koa-router/index.d.ts": [
+        "./node_modules/@types/koa/index.d.ts"
+      ],
+      "./node_modules/@types/koa/index.d.ts": [
+        "./node_modules/@types/accepts/index.d.ts",
+        "./node_modules/@types/content-disposition/index.d.ts",
+        "./node_modules/@types/cookies/index.d.ts",
+        "./node_modules/@types/http-assert/index.d.ts",
+        "./node_modules/@types/keygrip/index.d.ts",
+        "./node_modules/@types/koa-compose/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/power-assert/index.d.ts": [
+        "./node_modules/@types/empower/index.d.ts",
+        "./node_modules/@types/power-assert-formatter/index.d.ts"
+      ],
+      "./node_modules/@types/serve-static/index.d.ts": [
+        "./node_modules/@types/express-serve-static-core/index.d.ts",
+        "./node_modules/@types/mime/index.d.ts"
+      ],
+      "./node_modules/@types/superagent/index.d.ts": [
+        "./node_modules/@types/cookiejar/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts"
+      ],
+      "./node_modules/@types/supertest/index.d.ts": [
+        "./node_modules/@types/superagent/index.d.ts"
+      ],
+      "./node_modules/egg-core/index.d.ts": [
+        "./node_modules/@types/depd/index.d.ts",
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/egg-logger/index.d.ts"
+      ],
+      "./node_modules/egg-mock/bootstrap.d.ts": [
+        "./node_modules/@types/power-assert/index.d.ts",
+        "./node_modules/egg-mock/index.d.ts"
+      ],
+      "./node_modules/egg-mock/index.d.ts": [
+        "./node_modules/@types/supertest/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/mm/index.d.ts"
+      ],
+      "./node_modules/egg-multipart/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/egg-view/index.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/egg/index.d.ts": [
+        "./node_modules/@types/accepts/index.d.ts",
+        "./node_modules/@types/koa-router/index.d.ts",
+        "./node_modules/@types/koa/index.d.ts",
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/egg-cookies/index.d.ts",
+        "./node_modules/egg-core/index.d.ts",
+        "./node_modules/egg-logger/index.d.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/urllib/lib/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./node_modules/urllib/lib/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./typings/app/controller/index.d.ts": [
+        "./app/controller/api/newsapicontroller.ts",
+        "./app/controller/page/homecontroller.ts",
+        "./app/controller/page/newscontroller.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/application.d.ts": [
+        "./app/extend/application.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/context.d.ts": [
+        "./app/extend/context.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/helper.d.ts": [
+        "./app/extend/helper.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/request.d.ts": [
+        "./app/extend/request.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/extend/response.d.ts": [
+        "./app/extend/response.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/index.d.ts": [
+        "./node_modules/egg-validate/index.d.ts"
+      ],
+      "./typings/app/middleware/index.d.ts": [
+        "./app/middleware/gzipmiddleware.ts",
+        "./app/middleware/notfoundmiddleware.ts",
+        "./app/middleware/robotmiddleware.ts",
+        "./app/middleware/webpackmiddleware.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/app/service/index.d.ts": [
+        "./app/service/newsservice.ts",
+        "./app/service/testservice.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/config/index.d.ts": [
+        "./config/config.default.ts",
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/plugin.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/config/plugin.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/index.d.ts"
+      ],
+      "./typings/index.d.ts": [
+        "./node_modules/egg-multipart/index.d.ts",
+        "./node_modules/egg-validate/index.d.ts",
+        "./node_modules/egg-view/index.d.ts",
+        "./node_modules/egg/index.d.ts",
+        "./typings/app/controller/index.d.ts",
+        "./typings/app/extend/application.d.ts",
+        "./typings/app/extend/context.d.ts",
+        "./typings/app/extend/helper.d.ts",
+        "./typings/app/extend/request.d.ts",
+        "./typings/app/extend/response.d.ts",
+        "./typings/app/middleware/index.d.ts",
+        "./typings/app/service/index.d.ts",
+        "./typings/config/index.d.ts",
+        "./typings/config/plugin.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./agent.ts",
+      "./app.ts",
+      "./app/controller/api/newsapicontroller.ts",
+      "./app/controller/page/homecontroller.ts",
+      "./app/controller/page/newscontroller.ts",
+      "./app/core/basecontroller.ts",
+      "./app/extend/application.ts",
+      "./app/extend/context.ts",
+      "./app/extend/helper.ts",
+      "./app/extend/request.ts",
+      "./app/extend/response.ts",
+      "./app/middleware/gzipmiddleware.ts",
+      "./app/middleware/notfoundmiddleware.ts",
+      "./app/middleware/robotmiddleware.ts",
+      "./app/middleware/webpackmiddleware.ts",
+      "./app/public/js/sdk/sdk.ts",
+      "./app/router.ts",
+      "./app/router/api/indexapirouter.ts",
+      "./app/router/page/homerouter.ts",
+      "./app/router/page/newsrouter.ts",
+      "./app/schedule/task.ts",
+      "./app/service/newsservice.ts",
+      "./app/service/testservice.ts",
+      "./config/config.default.ts",
+      "./config/config.local.ts",
+      "./config/config.prod.ts",
+      "./config/config.sit.ts",
+      "./config/config.uat.ts",
+      "./config/plugin.ts",
+      "./node_modules/@types/accepts/index.d.ts",
+      "./node_modules/@types/body-parser/index.d.ts",
+      "./node_modules/@types/color-name/index.d.ts",
+      "./node_modules/@types/connect/index.d.ts",
+      "./node_modules/@types/content-disposition/index.d.ts",
+      "./node_modules/@types/cookiejar/index.d.ts",
+      "./node_modules/@types/cookies/index.d.ts",
+      "./node_modules/@types/dargs/index.d.ts",
+      "./node_modules/@types/depd/index.d.ts",
+      "./node_modules/@types/empower/index.d.ts",
+      "./node_modules/@types/eslint-visitor-keys/index.d.ts",
+      "./node_modules/@types/events/index.d.ts",
+      "./node_modules/@types/express-serve-static-core/index.d.ts",
+      "./node_modules/@types/express/index.d.ts",
+      "./node_modules/@types/glob/index.d.ts",
+      "./node_modules/@types/http-assert/index.d.ts",
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "./node_modules/@types/istanbul-lib-report/index.d.ts",
+      "./node_modules/@types/istanbul-reports/index.d.ts",
+      "./node_modules/@types/json-schema/index.d.ts",
+      "./node_modules/@types/keygrip/index.d.ts",
+      "./node_modules/@types/koa-compose/index.d.ts",
+      "./node_modules/@types/koa-router/index.d.ts",
+      "./node_modules/@types/koa/index.d.ts",
+      "./node_modules/@types/mime/index.d.ts",
+      "./node_modules/@types/minimatch/index.d.ts",
+      "./node_modules/@types/mocha/index.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/ts3.2/index.d.ts",
+      "./node_modules/@types/power-assert-formatter/index.d.ts",
+      "./node_modules/@types/power-assert/index.d.ts",
+      "./node_modules/@types/qs/index.d.ts",
+      "./node_modules/@types/range-parser/index.d.ts",
+      "./node_modules/@types/serve-static/index.d.ts",
+      "./node_modules/@types/superagent/index.d.ts",
+      "./node_modules/@types/supertest/index.d.ts",
+      "./node_modules/@types/yargs-parser/index.d.ts",
+      "./node_modules/@types/yargs/index.d.ts",
+      "./node_modules/egg-cookies/index.d.ts",
+      "./node_modules/egg-core/index.d.ts",
+      "./node_modules/egg-logger/index.d.ts",
+      "./node_modules/egg-mock/bootstrap.d.ts",
+      "./node_modules/egg-mock/index.d.ts",
+      "./node_modules/egg-multipart/index.d.ts",
+      "./node_modules/egg-validate/index.d.ts",
+      "./node_modules/egg-view/index.d.ts",
+      "./node_modules/egg/index.d.ts",
+      "./node_modules/mm/index.d.ts",
+      "./node_modules/moment/ts3.1-typings/moment.d.ts",
+      "./node_modules/tslib/tslib.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/urllib/lib/index.d.ts",
+      "./test/app/controller/home.test.ts",
+      "./test/app/service/test.test.ts",
+      "./typings/app/controller/index.d.ts",
+      "./typings/app/extend/application.d.ts",
+      "./typings/app/extend/context.d.ts",
+      "./typings/app/extend/helper.d.ts",
+      "./typings/app/extend/request.d.ts",
+      "./typings/app/extend/response.d.ts",
+      "./typings/app/index.d.ts",
+      "./typings/app/middleware/index.d.ts",
+      "./typings/app/service/index.d.ts",
+      "./typings/config/index.d.ts",
+      "./typings/config/plugin.d.ts",
+      "./typings/index.d.ts"
+    ]
+  },
+  "version": "3.9.3"
+}
