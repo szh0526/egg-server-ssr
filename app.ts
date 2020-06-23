@@ -1,13 +1,15 @@
 /**
  * 初始化
 */
-import { Application, IBoot } from 'egg';
+import { Application, IBoot, Context } from 'egg';
 
 export default class AppBoot implements IBoot {
   private readonly app: Application;
+  private readonly ctx: Context;
 
   constructor(app: Application) {
     this.app = app;
+    this.ctx = app.createAnonymousContext(); // 创建一个新的执行上下文
   }
 
   /**
@@ -49,6 +51,12 @@ export default class AppBoot implements IBoot {
    * @memberof AppBoot
    */
   async didReady() {
+    const axios = this.ctx.axios;
+    // 配置基础请求路径，后续请求地址可以采用相对路径；
+    axios.defaults.baseURL = 'https://hacker-news.firebaseio.com/v0';
+    // axios.defaults.headers.common['Authorization'] = '12345';
+    axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+
     await this.app.runSchedule('loggerSchedule');
   }
 
@@ -63,9 +71,9 @@ export default class AppBoot implements IBoot {
     const { title, versions: { node }, pid, execPath } = process;
     // const ctx = app.createAnonymousContext(); // 创建一个新的执行上下文
     
-    app.messenger.on('agent_start_action', data => {
-      app.logger.info('agent进程是否已启动', data.success)
-    });
+    // app.messenger.on('agent_start_action', data => {
+    //   app.logger.info('agent进程是否已启动', data.success)
+    // });
 
     // app.httpclient.on('request', request => {
     //   // 可以在这里设置一些 trace headers，方便全链路跟踪
@@ -104,7 +112,7 @@ export default class AppBoot implements IBoot {
         node进程执行路径:${execPath}
         环境变量:${env}
         启动耗时:${Date.now() - start}毫秒
-      \r\n-----------------「应用已启动」----------------------\r\n`);
+      \r\n-----------------「应用已启动」----------------------`);
   }
 
   /**

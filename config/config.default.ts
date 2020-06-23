@@ -4,9 +4,11 @@
 */
 import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 import { join } from 'path';
+import * as axios from './config.axios';
 
 export default (appInfo: EggAppInfo) => {
   const config: PowerPartial<EggAppConfig> = {
+    ...axios,
     /**
      * egg环境变量
      * @member {String} Config#env
@@ -99,7 +101,12 @@ export default (appInfo: EggAppInfo) => {
       },
     },
     security: {
-      domainWhiteList: [ 'egg.cjdfintech.com' ],
+      csrf: {
+        // 关闭csrf
+        enable: false,
+        ignoreJSON: true,
+      },
+      // domainWhiteList: [ 'egg.cjdfintech.com' ],
     },
     view: {
       defaultViewEngine: 'nunjucks',

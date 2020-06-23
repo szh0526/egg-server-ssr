@@ -17,6 +17,7 @@ import 'egg-view';
 import 'egg-view-nunjucks';
 import 'egg-validate';
 import 'egg-customer-format-logger';
+import 'egg-axios-plus';
 import { EggPluginItem } from 'egg';
 declare module 'egg' {
   interface EggPlugin {
@@ -35,5 +36,6 @@ declare module 'egg' {
     nunjucks?: EggPluginItem;
     validate?: EggPluginItem;
     customerLogger?: EggPluginItem;
+    axiosPlus?: EggPluginItem;
   }
 }

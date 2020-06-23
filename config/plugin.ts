@@ -16,6 +16,10 @@ const plugin: EggPlugin = {
     package: 'egg-customer-format-logger',
     // 插件绝对路径，跟 package 配置互斥 调试插件时使用此配置
     // path: '/Users/sunzehao3/Documents/demo/egg-customer-format-logger',
+  },
+  axiosPlus: {
+    enable: true,
+    package: 'egg-axios-plus',
   }
 };
 

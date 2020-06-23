@@ -24,7 +24,9 @@
     "clean": "ets clean"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "egg": "^2.6.1",
+    "egg-axios-plus": "^3.1.1",
     "egg-customer-format-logger": "^1.0.51",
     "egg-logrotator": "^3.1.0",
     "egg-onerror": "^2.1.0",

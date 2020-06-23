@@ -6,6 +6,7 @@
    4).前置代理模式 （开启nginx反向代理后才可以使用）
    日志采集 确认用户的真实 IP，请求协议，甚至请求的域名，让应用层获取到真实的用户请求信息
     https://eggjs.org/zh-cn/tutorials/proxy.html
+   5).日志格式，digger格式
 
 2.封装httpclient 请求基类
 https://gitee.com/mmdapl/egg-axios-plus/

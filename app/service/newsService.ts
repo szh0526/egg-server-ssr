@@ -22,36 +22,53 @@ export default class NewsService extends Service {
   }
 
   public async list(page = 1): Promise<NewsItem[]> {
-    const { serverUrl, pageSize } = this.config.news;
-    const { data: idList } = await this.ctx.curl(`${serverUrl}/topstories.json`, {
-      data: {
-        orderBy: '"$key"',
-        startAt: `"${pageSize * (page - 1)}"`,
-        endAt: `"${pageSize * page - 1}"`,
-      },
-      dataType: 'json',
-      timing: true
-    });
+    try {
+      const { pageSize } = this.config.news;
 
-    const newsList = await Promise.all(
-      Object.keys(idList).map(key => {
-        const url = `${serverUrl}/item/${idList[key]}.json`;
-        return this.ctx.curl(url, { dataType: 'json' });
-      }),
-    );
+      const idList = await this.ctx.axios({
+        url: `/topstories.json`, 
+        method: 'get',
+        params: {
+          orderBy: '"$key"',
+          startAt: `"${pageSize * (page - 1)}"`,
+          endAt: `"${pageSize * page - 1}"`,
+        }
+      });
+  
+      const newsList = await Promise.all(
+        Object.keys(idList).map(key => {
+          const url = `/item/${idList[key]}.json`;
+          return this.ctx.axios({
+            url,
+            method: 'get'
+          });
+        }),
+      );
 
-    return newsList.map(res => res.data);
+      return newsList.filter(res => res && res.data);
+    } catch (error) {
+      this.ctx.logger.error(error);
+      return []; 
+    }
   }
 
   public async list2(param: ListParam) {
     this.ctx.logger.info(param);
     // 调用 CNode V1 版本 API
+    // const result = await this.ctx.axios({
+    //   url: `${'http://sit-dev-mwallet.cjdfintech.com:8080'}/topics`, 
+    //   method: 'post',
+    //   data: param
+    // });
     const result = await this.ctx.curl(`${this.rootUrl}/topics`, {
       method: 'POST',
       data: param,
       dataType: 'json',
       contentType: 'json'
     });
+
+    console.log('----',result)
+
     // 检查调用是否成功，如果调用失败会抛出异常
     this.checkSuccess(result);
     // 返回创建的 topic 的 id
