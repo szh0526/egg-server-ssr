@@ -4,23 +4,25 @@ export default class NewsController extends Controller {
   public async list() {
     const ctx = this.ctx;
     try {
-      // const page = ctx.query.page || 1;
-      // const newsList = await ctx.service.newsService.list(page);
-      // const items = newsList;
-      // if (ctx.params.id) {
-      //   items.filter(x => {
-      //     return x.id === ctx.params.id;
-      //   });
-      // }
+      const page = ctx.query.page || 1;
+      const newsList = await ctx.service.newsService.list(page);
+      const items = newsList;
+      if (ctx.params.id) {
+        items.filter(x => {
+          return x.id === ctx.params.id;
+        });
+      }
   
-      // this.logger.warn('当前列表: $j', items);
+      this.logger.warn('当前列表: $j', newsList);
 
       // console.log(newsList);
-      await ctx.render('news/list.tpl', { list: [{
-        time: 1592903915,
-        title:'Fujitsu’s Fugaku and A64FX Take Arm to the Top with 415 PetaFLOPs',
-        url:'https://www.anandtech.com/show/15869/new-1-supercomputer-fujitsus-fugaku-and-a64fx-take-arm-to-the-top-with-415-petaflops',
-      }] });
+      // await ctx.render('news/list.tpl', { list: [{
+      //   time: 1592903915,
+      //   title:'Fujitsu’s Fugaku and A64FX Take Arm to the Top with 415 PetaFLOPs',
+      //   url:'https://www.anandtech.com/show/15869/new-1-supercomputer-fujitsus-fugaku-and-a64fx-take-arm-to-the-top-with-415-petaflops',
+      // }] });
+
+      await ctx.render('news/list.tpl', { list: newsList });
     } catch (error) {
       ctx.logger.error(error.errors);
       ctx.body = { success: false };

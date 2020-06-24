@@ -45,10 +45,10 @@ export default class NewsService extends Service {
         }),
       );
 
-      return newsList.filter(res => res && res.data);
+      return newsList;
     } catch (error) {
       this.ctx.logger.error(error);
-      return []; 
+      return [];
     }
   }
 
