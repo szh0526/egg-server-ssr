@@ -1,0 +1,54 @@
+const path = require('path');
+const fs = require('fs');
+const moment = require('moment');
+
+module.exports = app => {
+  const rotator = getRotator(app);
+  return {
+    // https://github.com/eggjs/egg-schedule
+    schedule: {
+      type: 'worker', // 每台机器上只有一个 worker 会执行这个定时任务，每次执行定时任务的 worker 的选择是随机的。
+      cron: '10 * * * *', // 配置定时任务的执行时机
+    },
+    async task() {
+      await rotator.rotate();
+    }
+  };
+};
+
+function getPackageJsonObj() {
+  const _packageJson = fs.readFileSync(path.join(__dirname, './../../package.json'));
+  return JSON.parse(_packageJson);
+}
+
+function getRotator(app) {
+  class CustomRotator extends app.LogRotator {
+    async getRotateFiles() {
+      const files = new Map();
+      const currentDay = moment().subtract(1, 'days').format('YYYY-MM-DD');
+
+      // const rootFile = path.resolve(__dirname, '../..');
+      // const rootName = getPackageJsonObj().name;
+
+      // // console.log(rootName);
+      // const logsFile = path.resolve(rootFile, './logs');
+      // const appLogsFile = path.resolve(logsFile, `./${rootName}`);
+
+      // const appLogName = `${rootName}-app`;
+      // const srcPath = path.resolve(appLogsFile, `./${appLogName}.log`);
+      // const targetPath = path.resolve(appLogsFile, `./${appLogName}.${currentDay}.log`);
+
+      const srcPath = `/var/log/egg-server-ssr/egg-server-ssr-app.log`;
+      const targetPath = `/var/log/egg-server-ssr/egg-server-ssr-app-${moment().subtract(1, 'days').format('YYYY-MM-DD')}.log`;
+
+      files.set(srcPath, {
+        srcPath,
+        targetPath
+      });
+      return files;
+    }
+  }
+  return new CustomRotator({
+    app
+  });
+}
