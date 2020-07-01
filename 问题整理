@@ -6,16 +6,26 @@
    4).前置代理模式 （开启nginx反向代理后才可以使用）
    日志采集 确认用户的真实 IP，请求协议，甚至请求的域名，让应用层获取到真实的用户请求信息
     https://eggjs.org/zh-cn/tutorials/proxy.html
-   5).日志格式，digger格式
+   5).日志格式，digger格式（匹配sgm格式）
 
-2.封装httpclient 请求基类
+2.node 调用 jsf 杰夫接口 http协议
+
+3.封装httpclient 请求基类
 https://gitee.com/mmdapl/egg-axios-plus/
 
-3.egg 结合 nuxt
+4.egg 结合 nuxt
 静态资源构建  如： webpack
 https://eggjs.org/zh-cn/tutorials/assets.html
 
+5.h5 页面 语法错误等错误信息捕获 并上报到node（通过第三方js改造或 自定义console（需要考虑将console 叠加后再上报，避免影响性能，离线状态时也支持错误采集））;
 
+6.node服务域名 走公网nginx服务器 反向代理
+
+7.访问SSR->A页面路由如果有报错或异常需要提供降级方案，如访问现有h5 hash路由（hash路由配置节文件或 将ssr路由和csr路由做局部区分）
+
+8.node服务接口需要支持 v1 版本号的概念
+
+9.node 接口聚合 返回数据的格式需要统一规范并提供公共过滤方法（如：数据返回 data:{A:1,B:[],C:"测试"}，传入方法A 和 B字段  则过滤只返回A 和 B字段给C端）
 
 
 
